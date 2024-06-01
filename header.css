@@ -1,0 +1,144 @@
+.header {
+    background-color: var(--bg-primary-color);
+    background-image: url("/images/bg_banner.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    padding: 0 100px;
+}
+
+
+.nav {
+    color: var(--font-color);
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+    font-size: 20px;
+    padding-top: 20px;
+    padding: 20px 0px;
+}
+
+
+#menu_icon_id {
+    width: 109px;
+    text-align: right;
+}
+
+
+
+.banner_title h1 {
+    font-size: 100px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin: 20px 0;
+}
+
+.banner_desc p {
+    font-size: 20px;
+    text-align: left;
+    margin: 30px 0;
+    word-spacing: 3px;
+    font-family: var(--font-secondary);
+
+}
+
+.profile_container {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid var(--font-color);
+    border-bottom: 1px solid var(--font-color);
+}
+
+.check_btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.btn_container {
+    display: flex;
+}
+
+.check_icon {
+    height: 50px;
+}
+
+#banner_img_id {
+    height: 400px;
+}
+
+
+
+
+.project_completed h1 {
+    margin: 50px 0;
+    font-size: 152px;
+    font-weight: bolder;
+}
+
+
+
+.project_completed p {
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+
+.summarize_container {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+@media only screen and (min-width: 200px) and (max-width: 576px) {
+    .header {
+        background-image: none;
+        padding: 0 30px;
+    }
+
+
+
+    .banner_title h1 {
+        font-size: 50px;
+    }
+
+    .banner_desc p {
+        font-size: 15px;
+    }
+
+    #banner_img_id {
+        height: 200px;
+    }
+
+    .check_btn {
+        font-size: 15px;
+    }
+
+    .check_icon {
+        height: 20px;
+    }
+
+    .summarize_container {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    .project_completed h1 {
+        font-size: 70px;
+        font-weight: bolder;
+        margin: 30px 0;
+    }
+
+
+
+    .project_completed p {
+        font-size: 35px;
+        text-transform: uppercase;
+        font-weight: lighter;
+    }
+
+}

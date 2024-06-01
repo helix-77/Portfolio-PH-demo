@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&display=swap');
+
+
+:root{
+    --bg-primary-color: rgb(18, 24, 35);
+    --bg-secondary-color: rgb(42, 51, 180);
+    
+    --font-color: rgb(240, 255, 255);
+    --font-primary: 'Antonio', sans-serif;
+    --font-secondary: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+*{
+    margin: 0px 0px;
+    padding: 0 0px;
+    font-family: 'Antonio', sans-serif;
+    font-weight: 400;
+    color: var(--font-color);
+
+    
+}
+
+
+body{
+    background-color: var(--bg-primary-color);
+}
